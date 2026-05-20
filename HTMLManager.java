@@ -8,6 +8,7 @@ public class HTMLManager {
             throw new IllegalArgumentException("Queue cannot be null");
         }
 
+        
         tags = new LinkedList<>();
 
         for (HTMLTag tag : html) {
