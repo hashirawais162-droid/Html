@@ -28,8 +28,6 @@ public class HTMLManager {
             sb.append(tag.toString().trim());
             tags.add(tag);
         }
-        return sb.toSring();
-
         return sb.toString();
     }
 
